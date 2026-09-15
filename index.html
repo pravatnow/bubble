@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for Bubble Burst Mania mobile game by Anapra" />
+  <title>Privacy Policy — Bubble Burst Mania</title>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg-start: #1a1a2e;
+      --bg-mid: #16213e;
+      --bg-end: #0f3460;
+      --accent: #4ecdc4;
+      --accent-hover: #44bd9e;
+      --highlight: #ffd700;
+      --text: #e6eef5;
+      --text-muted: #8ea8c2;
+      --card: rgba(255, 255, 255, 0.05);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --shadow: rgba(0, 0, 0, 0.35);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(
+        135deg,
+        var(--bg-start) 0%,
+        var(--bg-mid) 50%,
+        var(--bg-end) 100%
+      );
+      background-attachment: fixed;
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 16px;
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 48px 40px;
+      box-shadow: 0 20px 60px var(--shadow);
+      backdrop-filter: blur(8px);
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 32px;
+    }
+
+    .logo {
+      font-size: 48px;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: 34px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      background: linear-gradient(90deg, #ff6b6b, var(--accent), var(--highlight));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .meta-item {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--card-border);
+    }
+
+    .meta-item strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      margin: 36px 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid rgba(78, 205, 196, 0.2);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 20px;
+      background: linear-gradient(180deg, #ff6b6b, var(--accent));
+      border-radius: 2px;
+    }
+
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #fff;
+      margin: 20px 0 8px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    ul,
+    ol {
+      margin: 12px 0 16px 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    li::marker {
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(78, 205, 196, 0.4);
+      transition: all 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+      border-bottom-color: var(--accent-hover);
+    }
+
+    .highlight-box {
+      background: rgba(78, 205, 196, 0.08);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 20px 0;
+      font-size: 15px;
+      color: var(--text);
+    }
+
+    .highlight-box strong {
+      color: var(--accent);
+    }
+
+    code {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: "SF Mono", Menlo, Consolas, monospace;
+      font-size: 13px;
+      color: var(--highlight);
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 16px 0;
+      border-radius: 10px;
+      border: 1px solid var(--card-border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    th {
+      background: rgba(78, 205, 196, 0.1);
+      color: var(--accent);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--card-border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .contact-card {
+      background: rgba(255, 215, 0, 0.06);
+      border: 1px solid rgba(255, 215, 0, 0.2);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 24px;
+      text-align: center;
+    }
+
+    .contact-card strong {
+      color: var(--highlight);
+      display: block;
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+
+    .toc {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 32px;
+    }
+
+    .toc-title {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .toc ol {
+      margin: 0;
+      padding-left: 20px;
+      columns: 2;
+      column-gap: 24px;
+    }
+
+    .toc li {
+      margin-bottom: 6px;
+      font-size: 14px;
+      break-inside: avoid;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 12px 8px;
+      }
+
+      .container {
+        padding: 28px 20px;
+        border-radius: 14px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      .logo {
+        font-size: 36px;
+      }
+
+      .toc ol {
+        columns: 1;
+      }
+
+      .meta {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        color: #000;
+        padding: 0;
+      }
+
+      .container {
+        background: #fff;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+      }
+
+      h1 {
+        -webkit-text-fill-color: #000;
+        color: #000;
+      }
+
+      h2 {
+        color: #000;
+      }
+
+      a {
+        color: #000;
+        border-bottom: none;
+      }
+
+      .toc {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <!-- ============ HEADER ============ -->
+    <header>
+      <div class="logo">🫧</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Bubble Burst Mania — Mobile Game by Anapra</p>
+      <div class="meta">
+        <span class="meta-item"><strong>Effective:</strong> September 15, 2026</span>
+        <span class="meta-item"><strong>Version:</strong> 1.0.0</span>
+      </div>
+    </header>
+
+    <!-- ============ TABLE OF CONTENTS ============ -->
+    <nav class="toc" aria-label="Table of Contents">
+      <div class="toc-title">Contents</div>
+      <ol>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#no-account">No Account Required</a></li>
+        <li><a href="#info">Information We Collect</a></li>
+        <li><a href="#ads">Advertising (Google AdMob)</a></li>
+        <li><a href="#third-party">Third-Party Services</a></li>
+        <li><a href="#children">Children's Privacy</a></li>
+        <li><a href="#security">Data Security</a></li>
+        <li><a href="#rights">Your Rights</a></li>
+        <li><a href="#changes">Changes to This Policy</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ol>
+    </nav>
+
+    <!-- ============ 1. INTRODUCTION ============ -->
+    <section id="intro">
+      <h2>1. Introduction</h2>
+      <p>
+        This Privacy Policy describes how <strong>Anapra</strong> ("we," "us,"
+        or "our") handles information in connection with the
+        <strong>Bubble Burst Mania</strong> mobile game ("the Game").
+      </p>
+      <p>
+        We respect your privacy. Bubble Burst Mania is designed to be played
+        without any account, sign-up, or login. We do not collect, store, or
+        share any personal information from our users.
+      </p>
+      <div class="highlight-box">
+        <strong>In short:</strong> No registration. No personal data collected.
+        Your game progress stays on your device. The only third-party service
+        used is Google AdMob to display ads that keep the game free to play.
+      </div>
+    </section>
+
+    <!-- ============ 2. NO ACCOUNT ============ -->
+    <section id="no-account">
+      <h2>2. No Account Required</h2>
+      <p>
+        Bubble Burst Mania does <strong>not</strong> require you to create an
+        account, sign in, or provide any personal details such as your name,
+        email address, or phone number.
+      </p>
+      <p>
+        All game data — such as your level progress, stars, coins, and
+        settings — is stored <strong>locally on your device</strong> using
+        standard storage. We have no access to this data and it is never
+        transmitted to us.
+      </p>
+    </section>
+
+    <!-- ============ 3. INFORMATION WE COLLECT ============ -->
+    <section id="info">
+      <h2>3. Information We Collect</h2>
+      <p>
+        <strong>We do not collect any personal information.</strong>
+      </p>
+      <p>
+        The Game does not ask for, store, or transmit your name, email,
+        contacts, photos, location, or any other personally identifiable
+        information.
+      </p>
+      <p>
+        However, our advertising partner (Google AdMob) may automatically
+        collect limited non-personal technical data to serve ads. This is
+        described in the next section.
+      </p>
+    </section>
+
+    <!-- ============ 4. ADVERTISING ============ -->
+    <section id="ads">
+      <h2>4. Advertising (Google AdMob)</h2>
+      <p>
+        Bubble Burst Mania displays advertisements through
+        <strong>Google AdMob</strong>. AdMob may automatically collect certain
+        information to deliver relevant ads, measure performance, and prevent
+        fraud. This may include:
+      </p>
+      <ul>
+        <li>Advertising ID (Google Advertising ID on Android / IDFA on iOS)</li>
+        <li>Device type, model, operating system, and language</li>
+        <li>IP address (used for approximate region)</li>
+        <li>Ad interaction data (impressions, clicks)</li>
+        <li>Diagnostic data for crash and error reporting</li>
+      </ul>
+
+      <h3>Personalized vs. Non-Personalized Ads</h3>
+      <p>
+        You can control whether you receive personalized ads through your
+        device settings:
+      </p>
+      <ul>
+        <li>
+          <strong>Android:</strong> Settings → Google → Ads → "Delete
+          advertising ID" or "Opt out of Ads Personalization"
+        </li>
+        <li>
+          <strong>iOS:</strong> Settings → Privacy & Security → Tracking →
+          disable "Allow Apps to Request to Track"
+        </li>
+      </ul>
+
+      <div class="highlight-box">
+        We never receive your personal identity from AdMob. AdMob operates
+        independently under Google's own privacy policy.
+      </div>
+    </section>
+
+    <!-- ============ 5. THIRD-PARTY SERVICES ============ -->
+    <section id="third-party">
+      <h2>5. Third-Party Services</h2>
+      <p>
+        The Game uses the following third-party service. Please review its
+        privacy policy for details on how it handles data:
+      </p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Purpose</th>
+              <th>Privacy Policy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Google AdMob</td>
+              <td>In-app advertising</td>
+              <td>
+                <a
+                  href="https://policies.google.com/technologies/ads"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >policies.google.com/technologies/ads</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Google Play Services</td>
+              <td>Platform services (Android)</td>
+              <td>
+                <a
+                  href="https://policies.google.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >policies.google.com/privacy</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ 6. CHILDREN'S PRIVACY ============ -->
+    <section id="children">
+      <h2>6. Children's Privacy</h2>
+      <p>
+        Bubble Burst Mania is intended for a general audience and is not
+        directed at children under the age of 13 (or the applicable age in your
+        region).
+      </p>
+      <p>
+        Because we do not collect any personal information, we do not knowingly
+        collect data from children. If you believe a child has provided
+        information through the Game, please contact us and we will take
+        appropriate action.
+      </p>
+    </section>
+
+    <!-- ============ 7. DATA SECURITY ============ -->
+    <section id="security">
+      <h2>7. Data Security</h2>
+      <p>
+        Since we do not collect or store personal data on our servers, there is
+        no personal data at risk from us. Any data collected by Google AdMob is
+        secured by Google under their own strict security practices.
+      </p>
+    </section>
+
+    <!-- ============ 8. YOUR RIGHTS ============ -->
+    <section id="rights">
+      <h2>8. Your Rights</h2>
+      <p>
+        Because we do not collect personal data, there is nothing for us to
+        delete or provide. However, you still have the following controls:
+      </p>
+      <ul>
+        <li>
+          <strong>Opt out of personalized ads</strong> via your device settings
+          (see Section 4).
+        </li>
+        <li>
+          <strong>Reset your advertising ID</strong> at any time from your
+          device settings.
+        </li>
+        <li>
+          <strong>Uninstall the Game</strong> to remove all locally stored game
+          data from your device.
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ 9. CHANGES ============ -->
+    <section id="changes">
+      <h2>9. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be
+        posted on this page with an updated "Effective" date. Continued use of
+        the Game after changes means you accept the updated policy.
+      </p>
+    </section>
+
+    <!-- ============ 10. CONTACT ============ -->
+    <section id="contact">
+      <h2>10. Contact Us</h2>
+      <p>
+        If you have any questions about this Privacy Policy, please contact us:
+      </p>
+      <div class="contact-card">
+        <strong>📧 Email</strong>
+        <a href="mailto:pravat20em@gmail.com">pravat20em@gmail.com</a>
+        <br /><br />
+        <strong>🏢 Developer</strong>
+        Anapra
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <p>
+        <strong
+          >By downloading and using Bubble Burst Mania, you agree to the terms
+          of this Privacy Policy.</strong
+        >
+      </p>
+      <p style="margin-top: 8px">
+        &copy; <span id="year"></span> Anapra. All rights reserved.
+      </p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
